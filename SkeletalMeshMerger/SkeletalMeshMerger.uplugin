@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SkeletalMeshMerger",
+	"Description": "Code from the epic documentary about modular characters renewed for new engine versions, it will allow you to add skeletel mesh parts using the same skeleton together and aplly them to one skeleton that you can use during gameplay. All works during runtime.",
+	"Category": "Other",
+	"CreatedBy": "Luis Schmitz",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SkeletalMeshMerger",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	]
+}
