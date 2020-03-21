@@ -74,14 +74,12 @@ struct FSkeletalMeshMergeParams
 		uint32 bSkeletonBefore : 1;
 	// Skeleton that will be used for the merged mesh.
 	// Leave empty if the generated skeleton is OK.
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		class USkeleton* Skeleton;
 
 	GENERATED_BODY()
 		FSkeletalMeshMergeParams()
 	{
-		TArray < FSkelMeshMergeSectionMapping_BP > MeshSectionMappings;
-		TArray < FSkelMeshMergeUVTransformMapping > UVTransformsPerMesh;
 		StripTopLODS = 0;
 		bNeedsCpuAccess = false;
 		bSkeletonBefore = false;
